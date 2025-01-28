@@ -1,0 +1,90 @@
+CREATE DATABASE electronicshops;
+USE electronicshops;
+
+CREATE TABLE sales(
+	sales_id INT AUTO_INCREMENT PRIMARY KEY,
+    product_name VARCHAR(50),
+    category VARCHAR(50),
+    quantity INT,
+    price INT
+);
+
+INSERT INTO sales(product_name, category, quantity, price)
+VALUES("Laptop", "Electronics",	2, 1000),
+	  ("Phone",	"Electronics",	5,	500),
+      ("Headphones", "Electronics",	4,	150),
+      ("Airports", "Electronics", 6, 2000),
+      ("Charger", "Electronics", 2, 250);
+
+-- AGGREGATE FUNCTIONS
+-- COUNT
+
+# FOR COUNT TOTAL SALES
+SELECT COUNT(*) AS "TOTAL SALES" 
+FROM sales;
+
+# FOR COUNT TOTAL QUANTITY
+SELECT COUNT(quantity) AS "TOTAL QUANTITY" 
+FROM sales;
+
+# FOR COUNT TOTAL CATEGORY
+SELECT COUNT(category) AS "TOTAL CATEGORY"
+FROM sales
+WHERE category = "ELECTRONICS";
+
+-- SUM 
+
+# FOR TOTAL QUANTITY
+SELECT SUM(quantity) AS "TOTAL QUANTITY"
+FROM sales;
+
+SELECT SUM(quantity) AS "TOTAL_ELECTRONICS_QUANTITY"
+FROM sales
+WHERE category = "ELECTRONICS";
+
+# FOR CALCULATE TOTAL REVENUE
+SELECT SUM(quantity*price) AS TOTAL_REVENUE
+FROM sales;
+
+-- AVERAGE
+
+# FOR CALCULATE AVERAGE 
+SELECT AVG(price) AS AVERAGE_PRICE
+FROM sales;
+
+# Average Price for Electronics
+SELECT AVG(price) AS AVERAGE_PRICE
+FROM sales
+WHERE category = "ELECTRONICS";
+
+-- MIN()
+
+# FOR CALCULATE MINIMUM/SMALLEST/CHEAPEST PRICE
+SELECT MIN(price) AS CHEAPEST_PRICE
+FROM sales;
+
+# FOR CALCULATE MINIMUM/SMALLEST QUANTITY
+SELECT MIN(quantity) AS SMALLEST_QUANTITY
+FROM sales;
+
+-- MAX()
+
+# FOR CALCULATE MAXIMUM/LARGEST/EXPENSIVE PRICE
+SELECT MAX(price) AS EXPENSIVE_PRICE
+FROM sales;
+
+# FOR CALCULATE MAXIMUM/LARGEST QUANTITY
+SELECT MAX(quantity) AS LARGEST_QUANTITY
+FROM sales;
+
+SELECT * FROM sales;
+
+
+
+
+
+
+
+
+
+
