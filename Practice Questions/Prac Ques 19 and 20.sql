@@ -19,5 +19,6 @@ ALTER TABLE emp_data
 ADD CONSTRAINT
 UNIQUE (emp_name);
 
+-- Ques 20: Try to insert duplicate emp_name into the table and observe the error.
 INSERT INTO emp_data (emp_id, emp_name, department, salary, join_date, experience_years)
 VALUES (11, 'Arbaz khan', 'IT', 660.35, CURRENT_DATE(), 5); -- IT WILL SHOW ERROR
