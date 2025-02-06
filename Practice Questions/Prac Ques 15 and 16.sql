@@ -33,7 +33,7 @@ ON emp_data.department = departments.dept_name;
 
 -- Ques 16: Display a list of all departments, even if they don't have any employees, using a LEFT JOIN.
 
-SELECT departments.dept_name
+SELECT departments.dept_name, emp_data.emp_name
 FROM departments 
 LEFT JOIN emp_data
 ON emp_data.department = departments.dept_name;

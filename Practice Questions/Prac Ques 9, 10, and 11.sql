@@ -13,10 +13,9 @@ GROUP BY department;
 
 -- Quest 10: Find the average salary of employees with at least 5 years of experience.
 
-SELECT emp_name, experience_years, AVG(salary) AS avg_salary
+SELECT AVG(salary) AS avg_salary
 FROM emp_data
-WHERE experience_years >= 5
-GROUP BY emp_name, experience_years;
+WHERE experience_years >= 5;
 
 -- Quest 11: Count the number of employees in each department.
 SELECT department, COUNT(emp_id) AS total_emp

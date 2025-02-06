@@ -12,6 +12,6 @@ WHERE join_date > '2025-01-01';
 -- Ques 6: Find all employees whose names start with the letter "A".
 SELECT * 
 FROM emp_data
-WHERE emp_name LIKE 'A';
+WHERE emp_name LIKE 'A%';
 
 

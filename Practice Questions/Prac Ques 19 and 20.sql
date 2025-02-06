@@ -1,6 +1,6 @@
 -- 10. Constraints
 -- Ques 19: Modify the employees table to:
--- a. Add a constraint that ensures salary is greater than or equal to 30000.
+-- a. Add a constraint that ensures salary is greater than or equal to 650.25.
 -- b. Add a unique constraint on emp_name.
 -- Ques 20: Try to insert duplicate emp_name into the table and observe the error.
 
