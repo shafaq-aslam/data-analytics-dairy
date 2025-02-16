@@ -1,5 +1,5 @@
 USE employees;
-SELECT * FROM departments, emp_data;
+SELECT * FROM emp_data;
 
 -- CTE
 
@@ -24,3 +24,20 @@ GROUP BY department
 )
 SELECT AVG(avg_sal)
 FROM CTE_example;
+
+-- *******************************
+
+WITH CTE_example1 AS
+(
+SELECT emp_id, emp_name, department, salary, experience_years
+FROM emp_data 
+WHERE salary > 655.00
+),
+CTE_example2 AS
+(
+SELECT emp_name, salary, experience_years
+FROM emp_data
+WHERE experience_years > 3
+)
+SELECT *
+FROM CTE_example2;
