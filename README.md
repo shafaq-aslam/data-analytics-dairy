@@ -11,30 +11,34 @@
   <img src="https://img.shields.io/badge/Power%20BI-Dashboards-orange?style=for-the-badge&logo=powerbi&logoColor=white"/>
   <img src="https://img.shields.io/badge/Tableau-Storytelling-blueviolet?style=for-the-badge&logo=tableau&logoColor=white"/>
   <img src="https://img.shields.io/badge/Excel-Quick%20Insights-green?style=for-the-badge&logo=microsoft-excel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Azure-Cloud%20Analytics-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS-Cloud%20Solutions-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
 </p>
 
 ---
 
 ## 🧠 About This Repository
 
-Welcome to my **Data Analytics Diary** — a comprehensive repository for learning and practicing **Data Analytics** using a blend of powerful tools:
+Welcome to my **Data Analytics Diary** — a comprehensive repository for learning and practicing **Data Analytics** using a blend of industry-leading tools:
 
 - 🗄️ **MySQL**: Querying and managing structured data  
 - 🐍 **Python**: Data cleaning, wrangling, and analysis  
 - 📊 **Power BI** & **Tableau**: Building interactive dashboards & visual storytelling  
 - 📗 **Excel**: Quick analysis and spreadsheet-based models  
+- ☁️ **Azure & AWS**: Exploring cloud platforms for data storage, pipelines, and services
 
 ---
 
 ### 🎓 Learning Resources
 
-This journey is powered by the **[Data Analyst Bootcamp](https://www.youtube.com/playlist?list=PLUaB-1hjhk8FE_XZ87vPPSfHqb6OcM0cF)** by **Alex The Analyst** — a beginner-friendly YouTube playlist that covers:
+This journey is powered by the **[Data Analyst Bootcamp](https://www.youtube.com/playlist?list=PLUaB-1hjhk8H48Pj32z4GZgGWyylqv85f)** by **Alex The Analyst** — a beginner-friendly YouTube playlist that covers:
 
 - SQL fundamentals  
 - Python for Data Analytics  
 - Excel dashboards  
 - Tableau & Power BI visualizations  
-- Resume and portfolio building tips
+- Resume and portfolio building tips  
+- Introduction to cloud platforms
 
 > 📺 Highly recommended for aspiring data analysts!
 
@@ -47,13 +51,12 @@ This journey is powered by the **[Data Analyst Bootcamp](https://www.youtube.com
 - ✅ Exploratory Data Analysis (EDA)
 - ✅ KPI Dashboards & Visualizations
 - ✅ Business Intelligence Reports
+- ✅ Cloud-based tools (Azure & AWS)
 - ✅ Real-world dataset projects
 
 ---
 
 ## 🗂️ Folder Structure
-
-
 
 Each tool's folder contains:
 - 📘 Practice tasks
