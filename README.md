@@ -57,14 +57,6 @@ Each tool's folder contains:
 
 ---
 
-## 📈 GitHub Activity
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shafaq-aslam&theme=gruvbox&hide_border=true" alt="GitHub Streak"/>
-</p>
-
----
-
 ## 🌟 Why This Diary?
 
 To track my journey, reinforce concepts, and showcase real-world problem-solving using data.  
