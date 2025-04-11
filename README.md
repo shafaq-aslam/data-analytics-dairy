@@ -36,9 +36,10 @@ This journey is powered by the **[Data Analyst Bootcamp](https://www.youtube.com
 - SQL fundamentals  
 - Python for Data Analytics  
 - Excel dashboards  
-- Tableau & Power BI visualizations  
-- Resume and portfolio building tips  
+- Tableau & Power BI visualizations
 - Introduction to cloud platforms
+- Tips on Using Linkedin to land a job
+- Resume and portfolio building tips  
 
 > 📺 Highly recommended for aspiring data analysts!
 
