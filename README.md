@@ -54,6 +54,7 @@ This journey is powered by the **[Data Analyst Bootcamp](https://www.youtube.com
 ## 🗂️ Folder Structure
 
 
+
 Each tool's folder contains:
 - 📘 Practice tasks
 - 📊 Project files & screenshots
@@ -71,9 +72,9 @@ Each tool's folder contains:
 
 ---
 
-## 🌟 Why This Diary?
+## 🌱 Why This Diary?
 
-To track my journey, reinforce concepts, and showcase real-world problem-solving using data.  
+To track my learning journey, reinforce concepts, and showcase real-world problem-solving using data.  
 If you're learning analytics too — feel free to explore, fork, or drop a ⭐!
 
 > 💬 “Without data, you're just another person with an opinion.” — W. Edwards Deming
@@ -83,6 +84,7 @@ If you're learning analytics too — feel free to explore, fork, or drop a ⭐!
 ## 📌 Tags for SEO
 
 `data-analytics` `python` `mysql` `sql` `powerbi` `tableau` `excel` `data-visualization` `kpi-dashboard` `eda` `real-world-data` `data-analysis-projects` `business-intelligence` `analytics-portfolio`
+
 
 
 
