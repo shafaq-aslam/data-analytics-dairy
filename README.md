@@ -28,7 +28,7 @@ Welcome to my **Data Analytics Diary** — a comprehensive repository for learni
 
 ### 🎓 Learning Resources
 
-This journey is powered by the **[Data Analyst Bootcamp](https://www.youtube.com/playlist?list=PLUaB-1hjhk8H48Pj32z4GZgGWyylqv85f)** by **Alex The Analyst** — a beginner-friendly YouTube playlist that covers:
+This journey is powered by the **[Data Analyst Bootcamp](https://www.youtube.com/playlist?list=PLUaB-1hjhk8FE_XZ87vPPSfHqb6OcM0cF)** by **Alex The Analyst** — a beginner-friendly YouTube playlist that covers:
 
 - SQL fundamentals  
 - Python for Data Analytics  
